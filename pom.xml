@@ -24,6 +24,17 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>vector-repo</id>
+            <url>https://repo.vectormc.net/artifactory/private</url>
+        </repository>
+        <snapshotRepository>
+            <id>vector-repo</id>
+            <url>https://repo.vectormc.net/artifactory/private</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <!-- Lombok -->
         <dependency>
